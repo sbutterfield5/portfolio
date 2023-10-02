@@ -3,7 +3,6 @@ body, html {
 }
 
 .nav {
-    background-color: #333;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -42,10 +41,35 @@ body {
 .image{
     flex: 1;
     margin: 2px;
+    padding: 5px;
 }  
 
+#bio-image{
+    max-height: 300px;
+    max-width: auto;
+    padding: 4px;
+}
 .bio {
     margin-right: 20px;
     text-align: center;
     padding: 3px;
 } 
+
+.bio-text {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.bio-button {
+    background-color: rgb(170, 164, 164);
+    font-size: 14px;
+    padding: 10px 15px;
+    border-radius: 12px;
+}
+
+.bio-button:hover {
+    background-color:  rgb(170, 164, 164);
+    color: white;
+}
+
