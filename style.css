@@ -19,6 +19,10 @@ body, html {
     font-size: 17px;
 }
 
+body {
+    background: linear-gradient( gray, white);
+}
+
 .nav a:hover {
     background-color: #ddd;
     color:black;
@@ -29,3 +33,19 @@ body, html {
     color:white;
 }
 
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    flex: 1;
+    margin: 2px;
+}  
+
+.bio {
+    margin-right: 20px;
+    text-align: center;
+    padding: 3px;
+} 
